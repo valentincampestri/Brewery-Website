@@ -1,0 +1,54 @@
+
+.header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar{
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+}
+
+.footer{
+    background-color: rgb(51, 51, 51);
+}
+
+.footer h3{
+    color: white;
+}
+
+.footer p{
+    color: white;
+}
+.footer svg{
+    height: 30px;
+    width: auto;
+}
+
+.titulo{
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 768px){
+    .nav-item{
+        max-width: 50px;
+    }
+}
